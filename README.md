@@ -1,9 +1,13 @@
 # CN-Diesel-Heater-control
 
-1. Connect two relays signal pins to D11 and D7 of arduino NANO pins and Temperature sensor to D2. 
-2. Take apart the controller and solder two wires at each end of the on and off buttons (four wires in total)
-3. Insert two wires coming from ON button from relay which is connected to Arduino pin D11 to relay NC and COM contacts.
-4. Insert two wires coming from OFF button from relay which is connected to Arduino pin D7 to relay NC and COM contacts.
-5. Upload code to the Arduino Nano. 
-
-Use serial monitor for debuging if needed.
+1. Solder Temperature sensor to D2 of Arduino together with 3.3V and GND.  
+2. Take apart the controller and solder two wires at each end of the on/off button and connect it to relay NC and COM contacts.
+3. Solder LCD wires to arduino nano accordingly:
+    rs = 12, 
+    en = 11,
+    d4 = 5,
+    d5 = 4,
+    d6 = 3,
+    d7 = 2;
+4. Upload source code to the Arduino Nano (Modify temperatures if you need to).
+5. Enjoy :)
