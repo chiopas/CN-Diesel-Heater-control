@@ -1,6 +1,6 @@
 # CN-Diesel-Heater-control
 
-1. Solder Temperature sensor to D7 of Arduino together with 3.3V and GND.  
+1. Solder Temperature sensor to D6, 3.3V and GND, connect relay to D7, 5v and GND.
 2. Take apart the controller and solder two wires at each end of the on/off button and connect it to relay NC and COM contacts.
 3. Solder LCD wires to arduino nano accordingly:
     rs = 12, 
